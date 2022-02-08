@@ -31,7 +31,7 @@ function Videos() {
   return (
     <section class="section-2" id="about-us">
       <h1 class="section-heading">About Us</h1>
-      {/* <div class="section-heading-line"></div> */}
+      <div class="section-heading-line"></div>
       <div class="video-wrapper">
         <video
           src={Video}
