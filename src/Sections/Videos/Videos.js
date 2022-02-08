@@ -21,20 +21,24 @@ function Videos() {
   const pause = () => {
     videoPlayer.current.pause();
   };
-  useEffect(() => {
-    videoPlayer.current.addEventListener("timeupdate", () => {
-      const barWidth =
-        videoPlayer.current.currentTime / videoPlayer.current.duration;
-      videoBar.current.style.width = `${barWidth * 100}%`;
-    });
-  });
+
+  const timeUpdate = () => {
+    const barWidth =
+      videoPlayer.current.currentTime / videoPlayer.current.duration;
+    videoBar.current.style.width = `${barWidth * 100}%`;
+  };
 
   return (
     <section class="section-2" id="about-us">
       <h1 class="section-heading">About Us</h1>
       {/* <div class="section-heading-line"></div> */}
       <div class="video-wrapper">
-        <video src={Video} class="video" ref={videoPlayer}></video>
+        <video
+          src={Video}
+          class="video"
+          ref={videoPlayer}
+          onTimeUpdate={timeUpdate}
+        ></video>
         <div class="controls">
           <div class="video-bar-wrapper">
             <div class="video-bar" ref={videoBar}></div>
