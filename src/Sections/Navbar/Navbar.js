@@ -1,12 +1,13 @@
 import React from "react";
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="logo">
+        <div class="logo">
           <a href="#">
-            <span>C</span>ode <span>A</span>nd <span>C</span>reate
+            <span>C</span>ode<span>A</span>nd<span>C</span>reate
           </a>
         </div>
         <div className="nav-list">
