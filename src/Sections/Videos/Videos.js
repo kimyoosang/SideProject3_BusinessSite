@@ -21,7 +21,7 @@ function Videos() {
   const pause = () => {
     videoPlayer.current.pause();
   };
-
+  //addEventListner로 적용했다가 video 태그에 onTimeUpdate 존재를 알고 함수 실행으로 교체함
   const timeUpdate = () => {
     const barWidth =
       videoPlayer.current.currentTime / videoPlayer.current.duration;
