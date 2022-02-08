@@ -23,11 +23,11 @@
 }
 
 .video-wrapper {
-  width: 77rem;
-  height: 35rem;
+  width: 100rem;
+  height: 50rem;
   position: absolute;
   top: 5rem;
-  right: 5rem;
+  right: 15rem;
   box-shadow: 3rem 3rem 6rem rgba(0, 0, 0, 0.7);
   overflow: hidden;
 }
@@ -87,10 +87,10 @@
 }
 
 .section-2-paragraph {
-  width: 77rem;
+  width: 100rem;
   position: absolute;
-  bottom: 0rem;
-  right: 5rem;
+  bottom: 8rem;
+  right: 15rem;
   font-size: 2rem;
   line-height: 1.5;
   color: #ddd;
