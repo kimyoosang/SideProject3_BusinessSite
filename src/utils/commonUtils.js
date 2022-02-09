@@ -1,6 +1,7 @@
 import Banner from "../Sections/Banner/Banner";
 import Navbar from "../Sections/Navbar/Navbar";
 import Videos from "../Sections/Videos/Videos";
+import Pricing from "../Sections/Pricing/Pricing";
 
 export const TOTAL_SCREENS = [
   {
@@ -14,5 +15,9 @@ export const TOTAL_SCREENS = [
   {
     screen_name: "Videos",
     component: Videos,
+  },
+  {
+    screen_name: "Pricing",
+    component: Pricing,
   },
 ];
