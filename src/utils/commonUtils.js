@@ -3,6 +3,7 @@ import Navbar from "../Sections/Navbar/Navbar";
 import Videos from "../Sections/Videos/Videos";
 import Pricing from "../Sections/Pricing/Pricing";
 import Contact from "../Sections/Contact/Contact";
+import Footer from "../Sections/Footer/Footer";
 
 export const TOTAL_SCREENS = [
   {
@@ -24,5 +25,9 @@ export const TOTAL_SCREENS = [
   {
     screen_name: "Contact",
     component: Contact,
+  },
+  {
+    screen_name: "Footer",
+    component: Footer,
   },
 ];
