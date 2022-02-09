@@ -135,5 +135,26 @@
 .btn-premium {
   background-color: #3be286;
 }
+@media (max-width: 1800px) {
+  .section-3 .section-heading-line {
+    margin-right: 3rem;
+  }
+}
+@media (max-width: 1400px) {
+  .section-3 {
+    flex-direction: column;
+  }
 
-/* End of Section 3 */
+  .section-3 {
+    height: auto;
+    padding: 5rem 0 10rem 0;
+  }
+
+  .section-3 .section-heading {
+    margin-bottom: 7rem;
+  }
+
+  .swiper-container {
+    width: 100%;
+  }
+}
