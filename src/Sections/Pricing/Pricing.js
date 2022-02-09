@@ -15,22 +15,6 @@ import "./Pricing.css";
 function Pricing() {
   SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
-  // useEffect(() => {
-  //   const swiper = new Swiper(".swiper-container", {
-  //     effect: "coverflow",
-  //     grabCursor: true,
-  //     centeredSlides: true,
-  //     slidesPerView: "auto",
-  //     coverflowEffect: {
-  //       rotate: 70,
-  //       stretch: 0,
-  //       depth: 100,
-  //       modifier: 1,
-  //       slideShadows: true,
-  //     },
-  //   });
-  // }, []);
-
   return (
     <section class="section-3" id="pricing">
       <h1 class="section-heading">Pricing</h1>
@@ -39,7 +23,7 @@ function Pricing() {
         navigation={true}
         effect={"coverflow"}
         centeredSlides={true}
-        slidesPerView={3}
+        slidesPerView={window.innerWidth < 768 ? 1 : 3}
         draggable={true}
         loop={true}
         coverflowEffect={{
