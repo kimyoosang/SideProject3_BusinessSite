@@ -5,7 +5,7 @@ function Banner() {
   return (
     <>
       <title>Business Agency</title>
-      <section className="section-1">
+      <section className="section-1" id="home">
         <div className="banner">
           <h1 className="banner-heading">
             <span className="heading-1">Business Ideas</span>

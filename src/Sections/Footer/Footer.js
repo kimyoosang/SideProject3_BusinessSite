@@ -5,10 +5,10 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-nav">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#videos">Videos</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
       </div>
       <p className="copyright">
         Copyrignt &copy; CodeAndCreate All Rights Reserved
