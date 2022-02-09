@@ -84,3 +84,25 @@
 .contact-form input[type="submit"]:hover {
   background-color: #5f0303;
 }
+@media (max-width: 1400px) {
+  .section-4 {
+    height: auto;
+    padding: 5rem 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact-details div {
+    margin: 3rem 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .contact-details div {
+    width: 18rem;
+    margin: 3rem 1rem;
+  }
+
+  .contact-form {
+    width: 60rem;
+  }
+}
