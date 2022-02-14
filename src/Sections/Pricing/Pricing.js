@@ -26,6 +26,8 @@ function Pricing() {
         slidesPerView={window.innerWidth < 768 ? 1 : 3}
         draggable={true}
         loop={true}
+        // slidesOffsetBefore={100}
+        // spaceBetween={100}
         coverflowEffect={{
           rotate: 70,
           stretch: 0,
@@ -35,7 +37,7 @@ function Pricing() {
         }}
         className="mySwiper"
       >
-        <div class="pricing-cards-wrapper ">
+        <div class="pricing-cards-wrapper">
           <SwiperSlide>
             <div class="pricing-card swiper-slide">
               <div class="pricing-card-front">

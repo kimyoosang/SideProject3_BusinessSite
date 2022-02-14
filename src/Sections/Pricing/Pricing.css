@@ -6,23 +6,31 @@
   align-items: center;
   padding-left: 10rem;
 }
-
-.swiper-slide {
+.mySwiper {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing-card.swiper-slide {
   display: flex;
   align-items: center;
   height: 60rem;
   width: 100%;
+  /* border: 2px solid red; */
 }
-.container .swiper-container {
-  width: 70%;
+.swiper-container {
+  width: 100%;
   /* left: 50%; */
+  /* border: 2px solid red; */
 }
 
 .pricing-cards-wrapper {
-  width: 100%;
+  width: 300px;
   display: flex;
   justify-content: space-evenly;
   padding: 10rem;
+  /* border: 2px solid red; */
 }
 
 .pricing-card {
